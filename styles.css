@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header, .footer {
+    flex-shrink: 0;
+}
+
+.body {
+    flex: 1;
+}
