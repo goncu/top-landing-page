@@ -20,7 +20,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 1300px;
+    /* max-width: 1300px; */
     margin: auto;
 }
 
@@ -28,12 +28,12 @@ body {
     background-color: #1F2937;
     }
 
-    .header {
+.header {
         padding-bottom: 75px;
     }
 .header-container, .hero-container {
     display: flex;
-    width: 1300px;
+    width: 70%;
     margin: auto;
 }
 
@@ -60,14 +60,17 @@ body {
 }
 
 .hero-container {
-    height: 400px;
-    
+    height: 30%;
+    flex-wrap: wrap;
+    max-width: 100%;
+    justify-content: center;
 }
 
 .image1 {
-    height: 333px;
-    width: 500px;
+    height: 300px;
+    width: 400px;
     margin-left: auto;
+    padding-bottom: 2em;
 }
 
 .title {
@@ -91,7 +94,7 @@ body {
     flex-direction: column;
     align-items: stretch;
     justify-content: stretch;
-    max-width: 600px;
+    max-width: 35%;
 }
 
 .sign-up {
@@ -109,6 +112,7 @@ body {
     justify-content: center;
     align-items: stretch;
     padding-bottom: 100px;
+    flex-wrap: wrap;
 }
 
 .figure {
@@ -137,14 +141,14 @@ figcaption {
     color: #1F2937;
     margin: auto;
     text-align: justify;
-    max-width: 1000px;
+    max-width: 60%;
     padding-top: 100px;
 }
 
 .quote-owner {
     font-size: 30px;
     font-weight: bold;
-    max-width: 1000px;
+    max-width: 60%;
     margin: auto;
     text-align: end;
     padding-top: 0.5em;
@@ -152,7 +156,7 @@ figcaption {
 }
 
 .cta {
-    width: 1300px;
+    width: 70%;
     margin: auto;
     display: flex;
     margin-top: 100px;
