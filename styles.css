@@ -2,18 +2,15 @@
     box-sizing: border-box;
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-
 body {
     display: flex;
     flex-direction: column;
     margin: 0;
     padding: 0;
 }
-
 .header, .footer {
     display: flex;
 }
-
 .body {
     flex: 1;
     display: flex;
@@ -23,27 +20,24 @@ body {
     /* max-width: 1300px; */
     margin: auto;
 }
-
 .header, .hero, .footer {
     background-color: #1F2937;
-    }
-
+}
 .header {
-        padding-bottom: 75px;
-    }
+        padding-bottom: 3em;
+        margin-bottom: -1px;
+}
 .header-container, .hero-container {
     display: flex;
     width: 70%;
     margin: auto;
 }
-
 .header .logo {
     font-size: 24px;
     color: #F9FAF8;
     align-self: center;
     /* margin-left: 10%; */
 }
-
 .header .links {
     display: flex;
     align-items: center;
@@ -53,12 +47,10 @@ body {
     margin-left: auto;
     /* margin-right: 10%; */
 }
-
- a {
+a {
     color: #E5E7EB;
     text-decoration: none;
 }
-
 .hero-container {
     height: 30%;
     flex-wrap: wrap;
@@ -66,14 +58,12 @@ body {
     justify-content: center;
     padding-bottom: 5%;
 }
-
 .image1 {
     height: 32%;
     width: 40%;
     margin-left: auto;
     padding-bottom: 2em;
 }
-
 .title {
     font-size: 48px;
     font-weight: 900;
@@ -82,14 +72,12 @@ body {
     /* flex: 1; */
     /* border: 1px solid; */
 }
-
 .under-title {
     font-size: 18px;
     color: #E5E7EB;
     /* flex: 1; */
     /* border: 1px solid; */
 }
-
 .hero-left {
     display: flex;
     flex-direction: column;
@@ -97,7 +85,6 @@ body {
     justify-content: stretch;
     max-width: 35%;
 }
-
 .sign-up {
     width: 130px;
     background-color: #3882F6;
@@ -107,7 +94,6 @@ body {
     font-size: 16px;
     color: #E5E7EB;
 }
-
 .body-images {
     display: flex;
     justify-content: center;
@@ -115,27 +101,22 @@ body {
     padding-bottom: 100px;
     flex-wrap: wrap;
 }
-
 .figure {
     width: 250px;
     height: 175px;
     border: 5px solid black;
 }
-
 .body-title {
     font-size: 36px;
     font-weight: bolder;
 }
-
 figcaption {
     padding-top: 0.5em;
     max-width: 250px;
 }
-
 .quote {
     background-color: #E5E7EB;
 }
-
 .quote-text {
     font-size: 36px;
     font-style: italic;
@@ -145,7 +126,6 @@ figcaption {
     max-width: 60%;
     padding-top: 100px;
 }
-
 .quote-owner {
     font-size: 30px;
     font-weight: bold;
@@ -155,7 +135,6 @@ figcaption {
     padding-top: 0.5em;
     padding-bottom: 100px;
 }
-
 .cta {
     width: 70%;
     margin: auto;
@@ -167,25 +146,20 @@ figcaption {
     align-items: center;
     justify-content: space-between;
 }
-
 .cta-header, .cta-text {
     color:#E5E7EB;
     margin-left: 50px;
 }
-
 .cta-text {
     margin-top: -10px;
 }
-
 .cta .sign-up {
     border: 1px solid #E5E7EB;
     margin-right: 50px;
 }
-
 .footer {
     color: #E5E7EB;
 }
-
 .footer-text {
     margin: auto;
     padding: 2em;
