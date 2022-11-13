@@ -64,6 +64,7 @@ body {
     flex-wrap: wrap;
     max-width: 100%;
     justify-content: center;
+    padding-bottom: 5%;
 }
 
 .image1 {
